@@ -34,7 +34,7 @@ const Quiz = () => {
             <BsClockHistory />
             <p>200:00</p>
           </header>
-          <main className="mt-4 border-l-4 border-black px-5">
+          <main className="mt-4 border-l-4 border-black px-5 w-full">
             <h5 className="text-xl font-medium	">
               {questions[0][questionId].question}
             </h5>
